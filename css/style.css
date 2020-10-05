@@ -34,21 +34,27 @@ nav.container-fluid {
 /* contenitore full-width sezione jumbo */
 .jumbo.container-fluid {
   background-color: #1ABC9C;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* contenitore full-width sezione portfolio */
 .sez-portfolio.container-fluid {
   background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* contenitore interno sezione portfolio */
 .sez-portfolio .container {
-  background-color: green;
+  /* background-color: green; */
 }
 
 /* contenitore full-width sezione about */
 .sez-about.container-fluid {
   background-color: #1ABC9C;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* bottone download sezione about */
@@ -56,13 +62,22 @@ nav.container-fluid {
   text-align: center;
 }
 
+/* contenitore full-width sezione contact */
+.sez-contact.container-fluid {
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
 /* footer contenitore full-width */
 .up-footer.container-fluid {
   background-color: #3A546D;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 /* sub footer credits */
 .sub-footer.container-fluid {
   background-color: #2C3E50;
-
+  padding-top:20px;
+  padding-bottom: 20px;
 }
