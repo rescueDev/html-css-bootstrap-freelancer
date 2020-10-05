@@ -26,22 +26,43 @@ img {
 
 /* regole corpo pagina */
 
-header {
+/* contenitore full-width nav bar */
+nav.container-fluid {
   background-color: blue;
 }
 
-#sez-jumbo {
+/* contenitore full-width sezione jumbo */
+.jumbo.container-fluid {
   background-color: #1ABC9C;
 }
 
-#sez-portfolio {
-
+/* contenitore full-width sezione portfolio */
+.sez-portfolio.container-fluid {
+  background-color: white;
 }
 
-#sez-about {
+/* contenitore interno sezione portfolio */
+.sez-portfolio .container {
+  background-color: green;
+}
+
+/* contenitore full-width sezione about */
+.sez-about.container-fluid {
   background-color: #1ABC9C;
 }
 
+/* bottone download sezione about */
 #download-button {
   text-align: center;
+}
+
+/* footer contenitore full-width */
+.up-footer.container-fluid {
+  background-color: #3A546D;
+}
+
+/* sub footer credits */
+.sub-footer.container-fluid {
+  background-color: #2C3E50;
+
 }
