@@ -35,5 +35,13 @@ header {
 }
 
 #sez-portfolio {
-  padding: 0 35px;
+
+}
+
+#sez-about {
+  background-color: #1ABC9C;
+}
+
+#download-button {
+  text-align: center;
 }
