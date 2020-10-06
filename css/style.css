@@ -132,6 +132,16 @@ img {
   padding-bottom: 20px;
 }
 
+.form {
+  padding:10% 0;
+}
+
+#send-button {
+  padding:2%;
+  background-color:green;
+  border-radius: 8px;
+}
+
 /* footer contenitore full-width */
 .up-footer {
   background-color: #3A546D;
