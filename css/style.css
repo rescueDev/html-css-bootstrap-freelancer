@@ -21,7 +21,7 @@ img {
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   border: solid 1px  #000;
   padding: 2px;
 }
@@ -49,6 +49,7 @@ img {
   margin-bottom: 0;
   min-height: 100px;
   padding-top: 25px;
+
 }
 
 /* colore testo navbar */
@@ -56,6 +57,7 @@ img {
 #sezione1 .navbar-collapse a {
   color:white;
   font-weight: bold;
+
 }
 
 #sezione1 .navbar-header a {
@@ -115,11 +117,13 @@ img {
   background-color: #1ABC9C;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: white;
 }
 
-#about-text {
-
-}
+.about-info {
+  width: 90%;
+  margin: 0 auto;
+  }
 
 /* bottone download sezione about */
 #download-button {
@@ -153,11 +157,12 @@ img {
   padding:0 60px;
 }
 
-#social-icon-cont::after{
-  clear: both;
-  content: "";
-  display: table;
+#location, #around-web,
+#about-freelancer,
+#copyright-text {
+  color:white;
 }
+
 
 #social-icon-cont {
   width: 100%;
@@ -167,7 +172,11 @@ img {
 #social-icon-cont a {
   color:white;
   font-size: 20px;
+  padding: 0 5px;
 }
+
+
+
 
 
 
