@@ -85,7 +85,9 @@ img {
   color: white;
 }
 
-#jumbo-text
+#jumbo-text h1 {
+  font-weight: bold;
+}
 
 /* contenitore full-width sezione portfolio */
 .sez-portfolio {
@@ -175,14 +177,64 @@ img {
   padding: 0 5px;
 }
 
-
-
-
-
-
 /* sub footer credits */
 .sub-footer {
   background-color: #2C3E50;
-  padding-top:20px;
-  padding-bottom: 20px;
+}
+
+#copyright-text {
+  padding-top:10%;
+}
+
+
+/* versione smartphone */
+@media all and (max-width:768px) {
+
+  #jumbo-text {
+    width: 90%;
+    margin:0 auto;
+  }
+
+  #jumbo-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #jumbo-text h3 {
+    font-size: 20px;
+  }
+}
+
+/* versione tablet */
+@media all and (min-width:769px) and (max-width:992px) {
+  #jumbo-text {
+    width: 90%;
+    margin:0 auto;
+  }
+
+  #jumbo-text h1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  #jumbo-text h3 {
+    font-size: 25px;
+  }
+}
+
+/* versione desktop */
+@media all and (min-width:993px){
+  #jumbo-text {
+    width: 90%;
+    margin:0 auto;
+  }
+
+  #jumbo-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  #jumbo-text h3 {
+    font-size: 35px;
+  }
 }
