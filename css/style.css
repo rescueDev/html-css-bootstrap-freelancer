@@ -104,11 +104,21 @@ img {
   color: #2C3E50;
 }
 
+/* contenitori immagini portfolio */
+.image-portfolio {
+  width: 90%;
+  margin: 10% auto;
+}
+
 /* contenitore full-width sezione about */
 .sez-about {
   background-color: #1ABC9C;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#about-text {
+
 }
 
 /* bottone download sezione about */
