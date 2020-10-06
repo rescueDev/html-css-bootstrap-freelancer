@@ -22,7 +22,7 @@ img {
 [class*="col-"] {
   min-height: 100px;
   /* background-color: lightgreen; */
-  border: solid 1px  #000;
+  /* border: solid 1px  #000; */
   padding: 2px;
 }
 
@@ -125,6 +125,7 @@ img {
 .about-info {
   width: 90%;
   margin: 0 auto;
+  font-weight: bold;
   }
 
 /* bottone download sezione about */
@@ -136,6 +137,10 @@ img {
 .sez-contact {
   padding-top:20px;
   padding-bottom: 20px;
+}
+
+#contact-me {
+  color:#2C3E50;
 }
 
 .form {
@@ -188,7 +193,7 @@ img {
 
 
 /* versione smartphone */
-@media all and (max-width:768px) {
+@media all and (min-width:767px) {
 
   #jumbo-text {
     width: 90%;
@@ -196,17 +201,57 @@ img {
   }
 
   #jumbo-text h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
   }
 
   #jumbo-text h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
+
+  .sez-portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-info {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    }
 }
 
 /* versione tablet */
-@media all and (min-width:769px) and (max-width:992px) {
+@media all and (min-width:768px) and (max-width:991px) {
+  #jumbo-text {
+    width: 90%;
+    margin:0 auto;
+  }
+
+  #jumbo-text h1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #jumbo-text h3 {
+    font-size: 25px;
+  }
+
+  .sez-portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-info {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    }
+
+}
+
+/* versione desktop */
+@media all and (min-width:992px) and (max-width:1199px){
   #jumbo-text {
     width: 90%;
     margin:0 auto;
@@ -220,21 +265,33 @@ img {
   #jumbo-text h3 {
     font-size: 25px;
   }
+
+  .sez-portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
 }
 
-/* versione desktop */
-@media all and (min-width:993px){
+/* versione large-desktop */
+@media all and (min-width:1200px){
   #jumbo-text {
     width: 90%;
     margin:0 auto;
   }
 
   #jumbo-text h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
   }
 
   #jumbo-text h3 {
-    font-size: 35px;
+    font-size: 20px;
   }
+
+  .sez-portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
 }
