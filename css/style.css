@@ -34,21 +34,54 @@ img {
 
 /* regole corpo pagina */
 
-/* contenitore full-width nav bar */
-nav {
+.centratura-page {
+  padding:0 10%;
   background-color: #2C3E50;
 }
 
-nav .container {
-  padding:10px 60px;
+/* modifica componente navbar bootstrap */
+#sezione1 .navbar-default{
+  background-color: #2C3E50;
 }
 
-/* contenitore full-width sezione jumbo */
+#sezione1 .navbar{
+  border: none;
+  margin-bottom: 0;
+}
+
+/* colore testo navbar */
+#sezione1 .navbar-header a,
+#sezione1 .navbar-collapse a {
+  color:white;
+  font-weight: bold;
+}
+
+#sezione1 .navbar-header a {
+  font-size: 25px;
+}
+
+/* sezione jumbotron */
 .jumbo {
   background-color: #1ABC9C;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/* contenitore immagine avatar jumbo */
+#avatar-img {
+  width: 60%;
+  margin:0 auto;
+}
+
+/* testo jumbotron */
+#jumbo-text {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#jumbo-text
 
 /* contenitore full-width sezione portfolio */
 .sez-portfolio {
