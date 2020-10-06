@@ -47,6 +47,8 @@ img {
 #sezione1 .navbar{
   border: none;
   margin-bottom: 0;
+  min-height: 100px;
+  padding-top: 25px;
 }
 
 /* colore testo navbar */
@@ -94,6 +96,12 @@ img {
 .sez-portfolio .container {
   /* background-color: green; */
   padding:0 60px;
+}
+
+/* testo sezione portfolio */
+#portfolio-text {
+  text-align: center;
+  color: #2C3E50;
 }
 
 /* contenitore full-width sezione about */
